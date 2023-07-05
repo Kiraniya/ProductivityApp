@@ -16,9 +16,9 @@ import java.util.concurrent.TimeUnit
 
 class TimerViewModel:ViewModel() {
     private var countDownTimer: CountDownTimer?=null
-    private val userInputMinutes= TimeUnit.MINUTES.toMillis(1)
-    private val shortBreak=TimeUnit.MINUTES.toMillis(2)
-    private val longBreak=TimeUnit.MINUTES.toMillis(3)
+    private val userInputMinutes= TimeUnit.MINUTES.toMillis(25)
+    private val shortBreak=TimeUnit.MINUTES.toMillis(5)
+    private val longBreak=TimeUnit.MINUTES.toMillis(10)
     private val userInputSecond=TimeUnit.SECONDS.toMillis(0)
 
 
